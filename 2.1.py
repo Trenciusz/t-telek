@@ -11,3 +11,4 @@ for szo in szavak:
     if szo.startswith("A"):
         helyes_szavak.append(szo)
 print(helyes_szavak)
+print("Hány helyes szó volt: ", len(helyes_szavak))
